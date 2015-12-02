@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/nicolas/cake/src/Model/Table/UsersTable.php</file>
+            <file>file:/home/nicolas/cake/src/Controller/UsersController.php</file>
+            <file>file:/home/nicolas/cake/webroot/css/deco.css</file>
+            <file>file:/home/nicolas/cake/src/Controller/GameController.php</file>
+            <file>file:/home/nicolas/cake/src/Template/Game/plateau.ctp</file>
+            <file>file:/home/nicolas/cake/src/Controller/AppController.php</file>
+            <file>file:/home/nicolas/cake/src/Template/Game/index.ctp</file>
+        </group>
+    </open-files>
+</project-private>
