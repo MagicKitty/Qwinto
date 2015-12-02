@@ -1,0 +1,19 @@
+2015-11-15 12:43:31 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cake.articles' doesn't exist
+Stack Trace:
+#0 /home/nicolas/cake/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'articles', Array, Object(Cake\Database\Schema\Table))
+#1 /home/nicolas/cake/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(64): Cake\Database\Schema\Collection->describe('articles', Array)
+#2 /home/nicolas/cake/vendor/cakephp/cakephp/src/ORM/Table.php(423): Cake\Database\Schema\CachedCollection->describe('articles')
+#3 /home/nicolas/cake/vendor/cakephp/cakephp/src/ORM/Table.php(499): Cake\ORM\Table->schema()
+#4 /home/nicolas/cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#5 /home/nicolas/cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(110): Bake\Shell\Task\ModelTask->getAssociations(Object(App\Model\Table\ArticlesTable))
+#6 /home/nicolas/cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(96): Bake\Shell\Task\ModelTask->bake('Articles')
+#7 [internal function]: Bake\Shell\Task\ModelTask->main('Articles')
+#8 /home/nicolas/cake/vendor/cakephp/cakephp/src/Console/Shell.php(447): call_user_func_array(Array, Array)
+#9 /home/nicolas/cake/vendor/cakephp/cakephp/src/Console/Shell.php(442): Cake\Console\Shell->runCommand(Array, false)
+#10 /home/nicolas/cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(212): Cake\Console\Shell->runCommand(Array, true, Array)
+#11 /home/nicolas/cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#12 /home/nicolas/cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#13 /home/nicolas/cake/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+
